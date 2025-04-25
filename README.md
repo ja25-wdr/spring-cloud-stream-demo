@@ -25,3 +25,17 @@ This server-side runs on [Docker for Mac][docker] and includes: [Kafka][kafka], 
 [zookeeper]: https://zookeeper.apache.org/
 [rabbit]: https://www.rabbitmq.com/
 [kafdrop]: https://hub.docker.com/r/obsidiandynamics/kafdrop
+
+
+## To Boot the Servers and Apps
+
+Run ./start-servers.sh
+
+Then run the loansource and loancheck Spring Boot apps - kafka is the default profile.
+To run rabbitmq run these apps with the rabbit profile.
+
+To stop the servers run ./stop-servers.sh
+
+For Kafka messages can be viewed at http://localhost:8080
+
+For Rabbit MQ messages can be viewed at http://localhost:15672
