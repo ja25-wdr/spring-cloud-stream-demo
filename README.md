@@ -36,6 +36,8 @@ To run rabbitmq run these apps with the rabbit profile.
 
 To stop the servers run ./stop-servers.sh
 
+## To View Exchange
+
 For Kafka messages can be viewed at http://localhost:8080
 
 For Rabbit MQ messages can be viewed at http://localhost:15672
